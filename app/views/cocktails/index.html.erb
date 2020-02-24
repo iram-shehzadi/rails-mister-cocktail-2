@@ -1,6 +1,6 @@
-<h1>All cocktails</h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/negroni-cocktail-royalty-free-image-638677438-1567153315.jpg?crop=1.00xw:0.754xh;0,0.119xh&resize=980:*);">
+  <div class="container">
+    <h1>Cocktails</h1>
     <%= link_to "Add a cocktail", new_cocktail_path %>
-<% @cocktails.each do |cocktail| %>
-<h2><%= cocktail.name %></h2>
-<%= link_to "", cocktail_path(cocktail) %>
-<% end %>
+  </div>
+</div>
